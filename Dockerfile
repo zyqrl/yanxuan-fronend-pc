@@ -6,8 +6,7 @@ COPY package.json /workload/package.json
 COPY .nuxt /workload/.nuxt
 COPY static /workload/static
 
-RUN npm config set registry https://registry.npm.taobao.org \
-    && npm install
+RUN npm install
 
 EXPOSE 3000
 CMD npm run start
