@@ -1,4 +1,4 @@
-FROM node:12.13.1
+FROM node:16.20-bullseye
 WORKDIR /workload
 
 COPY nuxt.config.js /workload/nuxt.config.js
