@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{900:function(n,t,e){"use strict";e.r(t);var c={data:function(){return{}}},r=e(14),component=Object(r.a)(c,(function(){var n=this,t=n.$createElement;return(n._self._c||t)("div",[n._v("我是消息模块")])}),[],!1,null,"2cb090aa",null);t.default=component.exports}}]);

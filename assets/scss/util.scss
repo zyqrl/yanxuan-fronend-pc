@@ -1,0 +1,128 @@
+$baseFontSize: 100 !default;
+/**/
+
+@mixin adj ($styleName, $value...) {
+  #{$styleName}: $value;
+  -webkit-#{$styleName}: $value;
+  -moz-#{$styleName}: $value;
+  -o-#{$styleName}: $value;
+  -ms-#{$styleName}: $value;
+}
+// @mixin transition($value...) {
+//   -webkit-transiton: $value;
+//   -moz-transtion: $value;
+//   -ms-transtion: $value;
+//   transition: $value;
+// }
+// @mixin transition-delay($value...) {
+//   transition-delay: $value;
+//   -moz-transition-delay: $value; /* Firefox 4 */
+//   -webkit-transition-delay: $value; /* Safari 和 Chrome */
+//   -o-transition-delay: $value; /* Opera */
+// }
+
+// @mixin transform($value...) {
+//   transform: $value;
+//   -webkit-transform: $value;
+//   -moz-transform: $value;
+//   -o-transform: $value;
+//   -ms-transform: $value;
+// }
+
+// @mixin animation($value...) {
+//   -webkit-animation: $value;
+//   -moz-animation: $value;
+//   -ms-animation: $value;
+//   animation: $value;
+// }
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+// @mixin filter($value...) {
+//   -webkit-filter: $value;
+//   -moz-filter: $value;
+//   -ms-filter: $value;
+//   filter: $value;
+// }
+
+@mixin linear-gradient($value...) {
+  background: -webkit-linear-gradient($value); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient($value); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient($value); /* Firefox 3.6 - 15 */
+  background: linear-gradient(t$value); /* 标准的语法 */
+}
+
+// @mixin boxShow($value...) {
+//   -webkit-box-shadow: $value;
+//   -moz-box-shadow: $value;
+//   -ms-box-shadow: $value;
+//   box-shadow: $value;
+// }
+
+@function torem($value) {
+  @return ($value / $baseFontSize * 1rem);
+}
+
+%overflow-scrolling {
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  overflow: auto;
+}
+
+%els {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*内容居中布局*/
+@mixin layout-box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*单行溢出*/
+@mixin ellipsis {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap
+}
+
+/*多行溢出*/
+@mixin ellipses($line) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+/*可点击文字hover*/
+.hover-text:hover {
+  color: #FF875B;
+}
+
+/*扩大元素可点击热区*/
+.expend-click {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+}

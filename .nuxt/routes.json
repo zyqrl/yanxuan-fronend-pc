@@ -1,0 +1,283 @@
+[
+  {
+    "name": "account",
+    "path": "/account",
+    "component": "/root/yanxuan-fronend-pc/pages/account/index.vue",
+    "chunkName": "pages/account/index",
+    "children": [
+      {
+        "name": "account-index-address",
+        "path": "address",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/address.vue",
+        "chunkName": "pages/account/index/address",
+        "_name": "_d0f03f98"
+      },
+      {
+        "name": "account-index-home",
+        "path": "home",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/home/index.vue",
+        "chunkName": "pages/account/index/home/index",
+        "_name": "_bd2f36dc"
+      },
+      {
+        "name": "account-index-message",
+        "path": "message",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/message.vue",
+        "chunkName": "pages/account/index/message",
+        "_name": "_94d5fa72"
+      },
+      {
+        "name": "account-index-userInfo",
+        "path": "userInfo",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/userInfo.vue",
+        "chunkName": "pages/account/index/userInfo",
+        "_name": "_29292e89"
+      },
+      {
+        "name": "account-index-order-detail",
+        "path": "order/detail",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/detail/index.vue",
+        "chunkName": "pages/account/index/order/detail/index",
+        "_name": "_9f46ebb6"
+      },
+      {
+        "name": "account-index-order-list",
+        "path": "order/list",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/list/index.vue",
+        "chunkName": "pages/account/index/order/list/index",
+        "_name": "_bd3cdf1c"
+      },
+      {
+        "name": "account-index-home-module-LogisitcsInfo",
+        "path": "home/module/LogisitcsInfo",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/home/module/LogisitcsInfo.vue",
+        "chunkName": "pages/account/index/home/module/LogisitcsInfo",
+        "_name": "_6a6a6e84"
+      },
+      {
+        "name": "account-index-home-module-Message",
+        "path": "home/module/Message",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/home/module/Message.vue",
+        "chunkName": "pages/account/index/home/module/Message",
+        "_name": "_84c52a98"
+      },
+      {
+        "name": "account-index-order-saleAfter-detail",
+        "path": "order/saleAfter/detail",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/saleAfter/detail.vue",
+        "chunkName": "pages/account/index/order/saleAfter/detail",
+        "_name": "_5685f25c"
+      },
+      {
+        "name": "account-index-order-saleAfter-list",
+        "path": "order/saleAfter/list",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/saleAfter/list.vue",
+        "chunkName": "pages/account/index/order/saleAfter/list",
+        "_name": "_503a062e"
+      },
+      {
+        "name": "account-index-order-detail-module-GoodsInfo",
+        "path": "order/detail/module/GoodsInfo",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/detail/module/GoodsInfo.vue",
+        "chunkName": "pages/account/index/order/detail/module/GoodsInfo",
+        "_name": "_41f1889e"
+      },
+      {
+        "name": "account-index-order-detail-module-LogisitcsInfo",
+        "path": "order/detail/module/LogisitcsInfo",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/detail/module/LogisitcsInfo.vue",
+        "chunkName": "pages/account/index/order/detail/module/LogisitcsInfo",
+        "_name": "_9e6bdede"
+      },
+      {
+        "name": "account-index-order-detail-module-StatusInfo",
+        "path": "order/detail/module/StatusInfo",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/detail/module/StatusInfo.vue",
+        "chunkName": "pages/account/index/order/detail/module/StatusInfo",
+        "_name": "_1d594894"
+      },
+      {
+        "name": "account-index-order-detail-module-StatusStep",
+        "path": "order/detail/module/StatusStep",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/detail/module/StatusStep.vue",
+        "chunkName": "pages/account/index/order/detail/module/StatusStep",
+        "_name": "_3bddbed4"
+      },
+      {
+        "name": "account-index-order-list-module-Tab",
+        "path": "order/list/module/Tab",
+        "component": "/root/yanxuan-fronend-pc/pages/account/index/order/list/module/Tab.vue",
+        "chunkName": "pages/account/index/order/list/module/Tab",
+        "_name": "_18b005e2"
+      }
+    ],
+    "_name": "_1f4c28cf"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "/root/yanxuan-fronend-pc/pages/cart/index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_10351bd4"
+  },
+  {
+    "name": "down",
+    "path": "/down",
+    "component": "/root/yanxuan-fronend-pc/pages/down/index.vue",
+    "chunkName": "pages/down/index",
+    "_name": "_b34d6a54"
+  },
+  {
+    "name": "index",
+    "path": "/index",
+    "component": "/root/yanxuan-fronend-pc/pages/index/index.vue",
+    "chunkName": "pages/index/index",
+    "_name": "_00287a18"
+  },
+  {
+    "name": "seckill",
+    "path": "/seckill",
+    "component": "/root/yanxuan-fronend-pc/pages/seckill/index.vue",
+    "chunkName": "pages/seckill/index",
+    "_name": "_223d2b51"
+  },
+  {
+    "name": "account-comment",
+    "path": "/account/comment",
+    "component": "/root/yanxuan-fronend-pc/pages/account/comment/index.vue",
+    "chunkName": "pages/account/comment/index",
+    "_name": "_70d47c1f"
+  },
+  {
+    "name": "account-tradeSuccess",
+    "path": "/account/tradeSuccess",
+    "component": "/root/yanxuan-fronend-pc/pages/account/tradeSuccess.vue",
+    "chunkName": "pages/account/tradeSuccess",
+    "_name": "_7160d712"
+  },
+  {
+    "name": "goods-list",
+    "path": "/goods/list",
+    "component": "/root/yanxuan-fronend-pc/pages/goods/list/index.vue",
+    "chunkName": "pages/goods/list/index",
+    "_name": "_de9f6e2a"
+  },
+  {
+    "name": "order-payResult",
+    "path": "/order/payResult",
+    "component": "/root/yanxuan-fronend-pc/pages/order/payResult.vue",
+    "chunkName": "pages/order/payResult",
+    "_name": "_ee22bffa"
+  },
+  {
+    "name": "order-submit",
+    "path": "/order/submit",
+    "component": "/root/yanxuan-fronend-pc/pages/order/submit/index.vue",
+    "chunkName": "pages/order/submit/index",
+    "_name": "_3ef0626d"
+  },
+  {
+    "name": "account-comment-success",
+    "path": "/account/comment/success",
+    "component": "/root/yanxuan-fronend-pc/pages/account/comment/success.vue",
+    "chunkName": "pages/account/comment/success",
+    "_name": "_30edf990"
+  },
+  {
+    "name": "index-module-Banner",
+    "path": "/index/module/Banner",
+    "component": "/root/yanxuan-fronend-pc/pages/index/module/Banner.vue",
+    "chunkName": "pages/index/module/Banner",
+    "_name": "_d2b7841e"
+  },
+  {
+    "name": "index-module-Pick",
+    "path": "/index/module/Pick",
+    "component": "/root/yanxuan-fronend-pc/pages/index/module/Pick.vue",
+    "chunkName": "pages/index/module/Pick",
+    "_name": "_a51738b4"
+  },
+  {
+    "name": "index-module-Seckill",
+    "path": "/index/module/Seckill",
+    "component": "/root/yanxuan-fronend-pc/pages/index/module/Seckill.vue",
+    "chunkName": "pages/index/module/Seckill",
+    "_name": "_2849adba"
+  },
+  {
+    "name": "index-module-TabbarFixed",
+    "path": "/index/module/TabbarFixed",
+    "component": "/root/yanxuan-fronend-pc/pages/index/module/TabbarFixed.vue",
+    "chunkName": "pages/index/module/TabbarFixed",
+    "_name": "_5a622341"
+  },
+  {
+    "name": "seckill-module-DialogEnd",
+    "path": "/seckill/module/DialogEnd",
+    "component": "/root/yanxuan-fronend-pc/pages/seckill/module/DialogEnd.vue",
+    "chunkName": "pages/seckill/module/DialogEnd",
+    "_name": "_39a1647e"
+  },
+  {
+    "name": "seckill-module-TabBar",
+    "path": "/seckill/module/TabBar",
+    "component": "/root/yanxuan-fronend-pc/pages/seckill/module/TabBar.vue",
+    "chunkName": "pages/seckill/module/TabBar",
+    "_name": "_9bbf7d40"
+  },
+  {
+    "name": "goods-detail-module-Comment",
+    "path": "/goods/detail/module/Comment",
+    "component": "/root/yanxuan-fronend-pc/pages/goods/detail/module/Comment.vue",
+    "chunkName": "pages/goods/detail/module/Comment",
+    "_name": "_3be04ec0"
+  },
+  {
+    "name": "goods-detail-module-HeaderBar",
+    "path": "/goods/detail/module/HeaderBar",
+    "component": "/root/yanxuan-fronend-pc/pages/goods/detail/module/HeaderBar.vue",
+    "chunkName": "pages/goods/detail/module/HeaderBar",
+    "_name": "_3094e0e7"
+  },
+  {
+    "name": "goods-list-module-SortItem",
+    "path": "/goods/list/module/SortItem",
+    "component": "/root/yanxuan-fronend-pc/pages/goods/list/module/SortItem.vue",
+    "chunkName": "pages/goods/list/module/SortItem",
+    "_name": "_7f669fe6"
+  },
+  {
+    "name": "order-submit-module-Amount",
+    "path": "/order/submit/module/Amount",
+    "component": "/root/yanxuan-fronend-pc/pages/order/submit/module/Amount.vue",
+    "chunkName": "pages/order/submit/module/Amount",
+    "_name": "_0f82af96"
+  },
+  {
+    "name": "order-submit-module-Message",
+    "path": "/order/submit/module/Message",
+    "component": "/root/yanxuan-fronend-pc/pages/order/submit/module/Message.vue",
+    "chunkName": "pages/order/submit/module/Message",
+    "_name": "_10d4598e"
+  },
+  {
+    "name": "order-submit-module-OrderInfo",
+    "path": "/order/submit/module/OrderInfo",
+    "component": "/root/yanxuan-fronend-pc/pages/order/submit/module/OrderInfo.vue",
+    "chunkName": "pages/order/submit/module/OrderInfo",
+    "_name": "_7c5bab4e"
+  },
+  {
+    "name": "goods-detail-id",
+    "path": "/goods/detail/:id?",
+    "component": "/root/yanxuan-fronend-pc/pages/goods/detail/_id.vue",
+    "chunkName": "pages/goods/detail/_id",
+    "_name": "_44af8a46"
+  },
+  {
+    "name": "custom",
+    "path": "/",
+    "component": "/root/yanxuan-fronend-pc/pages/index/index.vue",
+    "_name": "_00287a18"
+  }
+]

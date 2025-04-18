@@ -1,0 +1,1 @@
+const ENV = {"base_url":"http://192.168.72.51:8090","imUrl":"ws://192.168.72.51:8090"}; export default ENV;

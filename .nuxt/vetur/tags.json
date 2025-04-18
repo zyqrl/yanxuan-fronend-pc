@@ -1,0 +1,59 @@
+{
+  "BsAddress": {
+    "description": "Auto imported from components/BsAddress.vue"
+  },
+  "BsCancelOrder": {
+    "description": "Auto imported from components/BsCancelOrder.vue"
+  },
+  "BsChosen": {
+    "description": "Auto imported from components/BsChosen.vue"
+  },
+  "BsCommentFollowInfo": {
+    "description": "Auto imported from components/BsCommentFollowInfo.vue"
+  },
+  "BsCommentInfo": {
+    "description": "Auto imported from components/BsCommentInfo.vue"
+  },
+  "BsCommentSubmit": {
+    "description": "Auto imported from components/BsCommentSubmit.vue"
+  },
+  "BsLogin": {
+    "description": "Auto imported from components/BsLogin.vue"
+  },
+  "BsPay": {
+    "description": "Auto imported from components/BsPay.vue"
+  },
+  "UIGoodsInfo": {
+    "description": "Auto imported from components/UIGoodsInfo.vue"
+  },
+  "UiButton": {
+    "description": "Auto imported from components/UiButton.vue"
+  },
+  "UiConfirm": {
+    "description": "Auto imported from components/UiConfirm.vue"
+  },
+  "UiDialog": {
+    "description": "Auto imported from components/UiDialog.vue"
+  },
+  "UiEmpty": {
+    "description": "Auto imported from components/UiEmpty.vue"
+  },
+  "UiGoodsItem": {
+    "description": "Auto imported from components/UiGoodsItem.vue"
+  },
+  "UiImgs": {
+    "description": "Auto imported from components/UiImgs.vue"
+  },
+  "UiLineBox": {
+    "description": "Auto imported from components/UiLineBox.vue"
+  },
+  "UiLoading": {
+    "description": "Auto imported from components/UiLoading.vue"
+  },
+  "UiMoney": {
+    "description": "Auto imported from components/UiMoney.vue"
+  },
+  "UiPagination": {
+    "description": "Auto imported from components/UiPagination.vue"
+  }
+}
